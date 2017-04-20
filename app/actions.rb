@@ -50,3 +50,7 @@ post '/signup' do
         erb(:signup)
     end
 end
+
+post '/signup' do
+  "Hello World"
+end
